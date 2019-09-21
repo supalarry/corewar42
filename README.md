@@ -11,6 +11,8 @@ This project consists of two parts:
 
 **Virtual Machine** - This is virtual arena where player executables fight. From the executable, it extracts infotmation        about players and places their commands on virtual battlefield. Then, each player receives a process called **carriage**.      The purpose is carriage is to execute function is has stepped on. In the image above, carriages are coloured squares that      have stepped on some command. The winner who reports 'live' command last, wins. Our virtual machine also has a visualizer to see how the games goes.
 
+If it is hard to understand the point of the game, then that's expected. At the start of the assignement we were just given properly working assembler, virtual machine and example players and needed to figure out the rules of the game ourselves. It took quite a time to wrap our heads around it too.
+
 ## Assembler
 Assembly language used to write players has been developed specifically for this exercise. Like real assembly language, programmer can load number into a register, do addition and substraction etc.
 
@@ -86,3 +88,5 @@ The output of the whole file above is:
 
 ## Virtual Machine
 Virtual machine receives executables from all players and then places them in memory.
+Then each player receives a 'carriage'. Carriage is a process that executes command it is standing on.
+Below you can see the whole gameplay speeded up
