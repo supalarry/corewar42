@@ -17,7 +17,7 @@ This project consists of:
 
 **Disassembler** - Disassembler turns executable code back into human readable assembly code.
 
-**Virtual Machine** - This is virtual arena where player executables fight. From the executable, it extracts infotmation        about players and places their commands on virtual battlefield. Then, each player receives a process called **carriage**.      The purpose is carriage is to execute function is has stepped on. In the image above, carriages are coloured squares that      have stepped on some command. The winner who reports 'live' command last, wins. Our virtual machine also has a visualizer to see how the games goes.
+**Virtual Machine** - This is virtual arena where player executables fight. From the executable, it extracts information        about players and places their commands on virtual battlefield. Then, each player receives a process called **carriage**.      The purpose is carriage is to execute function is has stepped on. In the image above, carriages are coloured squares that      have stepped on some command. The winner who reports 'live' command last, wins. Our virtual machine also has a visualizer to see how the games goes.
 
 If it is hard to understand the point of the game, then that's expected. At the start of the assignement we were just given properly working assembler, virtual machine and example players and needed to figure out the rules of the game ourselves. It took quite a time to wrap our heads around it too.
 
