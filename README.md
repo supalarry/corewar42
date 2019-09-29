@@ -5,13 +5,19 @@ Players can overwrite virtual space and can duplicate processes with which to ex
 ```
 ![alt text](https://imgur.com/BSXVUlI.png)
 
-This project consists of two parts:
+This project consists of two main parts:
 
 **Assembler** - Assembler translates assembly code into machine code. The players that fight in this game are written in        assembly. Because the environment where they fight only understands machine code, they need to be translated.
 
 **Virtual Machine** - This is virtual arena where player executables fight. From the executable, it extracts infotmation        about players and places their commands on virtual battlefield. Then, each player receives a process called **carriage**.      The purpose is carriage is to execute function is has stepped on. In the image above, carriages are coloured squares that      have stepped on some command. The winner who reports 'live' command last, wins. Our virtual machine also has a visualizer to see how the games goes.
 
 If it is hard to understand the point of the game, then that's expected. At the start of the assignement we were just given properly working assembler, virtual machine and example players and needed to figure out the rules of the game ourselves. It took quite a time to wrap our heads around it too.
+
+The project consists of two other parts:
+
+**Champion** - This is player written in assembly language with a purpose to stay alive long as possible and battle other players.
+
+**Visualizer** - As shown in the picture above, visualizer shows the current state of the game.
 
 ## Assembler
 Assembly language used to write players has been developed specifically for this exercise. Like real assembly language, programmer can load number into a register, do addition and substraction etc.
