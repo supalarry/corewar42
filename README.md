@@ -34,10 +34,10 @@ corewar42
 ├── asmf [all files for assembler]
 ├── dasmf [all files for disassembler]
 ├── includes [header files for the project]
-├── libs [files for libraries
+├── libs [files for libraries]
 ├── test [files for testing our project]
 ├── test_vm [files for testing virtual machine]
-├── vm [all files for assembler]
+├── vm [all files for virtual machine]
 LavanderMan.s [our champion written in assembly]
 Makefile [compiles the project]
 author [my and my teammate's usernames]
