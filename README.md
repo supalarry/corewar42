@@ -11,7 +11,7 @@ Below is an image of our project:
 
 ## Overview
 
-This project consists of:
+This project consists of us programming:
 
 **Assembler** - Assembler translates assembly code into machine code. The players that fight in this game are written in        assembly. Because the environment where they fight only understands machine code, they need to be translated.
 
